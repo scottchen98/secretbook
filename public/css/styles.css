@@ -1,0 +1,116 @@
+body {
+  background-color: #e8ecef;
+}
+
+p {
+  padding: 10px;
+}
+
+a {
+  margin: 0 10px 0;
+}
+
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.button-color {
+  background-color: #00acee;
+}
+
+.login-submit-buttons {
+  background-color: #e8ecef;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 5px 0 5px;
+}
+
+/* Home page */
+.key {
+  width: 100px;
+}
+
+.app-name {
+  color: #00acee;
+  margin-bottom: 0;
+}
+
+/* Register and Login pages */
+.vertical-line {
+  border-left: 2px solid black;
+  height: 251px;
+}
+
+/* Register page */
+.registerMessage {
+  color: red;
+}
+
+/* Login page */
+.loginMessage {
+  color: red;
+  font-style: italic;
+}
+
+.google-card-body,
+.facebook-card-body {
+  padding-left: 0;
+}
+
+.google-text,
+.facebook-text {
+  text-align: center;
+}
+
+/* Secrets and mySecrets pages */
+.secret-title {
+  margin-bottom: 25px;
+}
+
+/* Secrets page */
+.secret-text {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #9cb4cc;
+  border-radius: 15px;
+}
+
+.secret-date {
+  margin-bottom: 30px;
+}
+
+/* mySecrets page */
+.my-secrets-delete-button {
+  color: #eb1d36;
+  position: absolute;
+  right: 15px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.my-secrets-delete-button:hover {
+  color: #ffffff;
+}
+
+.my-secrets-delete-button:focus {
+  outline: none;
+}
+
+/* Submit page */
+.submit-text {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.app-name.title {
+  margin-bottom: 25px;
+}
