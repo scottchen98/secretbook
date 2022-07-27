@@ -60,7 +60,8 @@ passport.use(
     {
       clientID: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
-      callbackURL: "http://localhost:3000/auth/google/secrets",
+      callbackURL:
+        "https://immense-ocean-88289.herokuapp.com/auth/google/secrets",
     },
     function (accessToken, refreshToken, profile, cb) {
       User.findOrCreate(
@@ -79,7 +80,8 @@ passport.use(
     {
       clientID: process.env.APP_ID,
       clientSecret: process.env.APP_SECRET,
-      callbackURL: "http://localhost:3000/auth/facebook/secrets",
+      callbackURL:
+        "https://immense-ocean-88289.herokuapp.com/auth/facebook/secrets",
       // Obtain a user profile with specific fields
       profileFields: ["email"],
     },
